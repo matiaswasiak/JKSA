@@ -273,6 +273,41 @@ html {
 /* FOOTER STYLES */
 footer {
   background-color: var(--medium-pink);
+  height: auto;
+  padding: 30px;
+}
+footer hr {
+  margin-bottom: 20px;
+}
+.footer__title {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding-bottom: 20px;
+}
+.footer__nav {
+  text-align: center;
+}
+.footer__nav ul li {
+  padding-bottom: 10px;
+}
+.footer__nav ul li a {
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: var(--black);
+}
+.footer__rrss ul {
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+footer p {
+  text-align: center;
+}
+/* footer {
+  background-color: var(--medium-pink);
   padding: 50px 70px;
   text-align: center;
   width: 100%;
@@ -321,4 +356,4 @@ footer p {
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 2.4rem;
-}
+} */
