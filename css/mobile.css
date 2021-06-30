@@ -1,0 +1,405 @@
+/* 
+1. Posicionamiento
+2. Modelo caja (box model)
+3. Tipografía
+4. Visuales
+5. Otros
+*/
+
+:root {
+  /* Colores */
+  --medium-pink: #f0e1da;
+  --black: #242424;
+  --white: #ffffff;
+  --aqua: #407d79;
+  --soft-aqua: #9aafaf;
+  --strong-pink: #ba8f87;
+  --soft-pink: #f7f0ec;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Merriweather", serif;
+  min-width: 320px;
+}
+
+/* HEADER STYLES */
+.header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--medium-pink);
+  height: 60px;
+}
+.header__title p {
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+}
+.header__nav {
+  display: none;
+}
+
+/* MENU STYLES */
+.menu__container {
+  display: flex;
+  background-color: var(--medium-pink);
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+.menu__nav ul {
+  display: none;
+}
+.menu__search form input {
+  height: 40px;
+  padding: 0 20px;
+  border-radius: 4px;
+  border: 1px solid #ba8f87;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* MAIN STYLES */
+.main__section {
+  position: relative;
+  background-color: var(--soft-pink);
+  height: 100vh;
+}
+.aqua--bar {
+  height: 100px;
+  background-color: var(--aqua);
+}
+.main__container {
+  position: absolute;
+  padding: 30px;
+  top: 40px;
+}
+.main__image img {
+  /* display: none; */
+  width: 260px;
+  height: auto;
+  padding-bottom: 20px;
+}
+.main__text .subtitle {
+  color: var(--black);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+.main__text h1 {
+  font-size: 4rem;
+  color: var(--aqua);
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.main__text .text {
+  font-size: 1.4rem;
+  padding-bottom: 30px;
+}
+.main__text button {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  color: var(--white);
+  background-color: var(--strong-pink);
+  text-transform: uppercase;
+  border: none;
+  letter-spacing: 1.2px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+}
+
+/* SHOP STYLES */
+.shop__container {
+  background-color: var(--aqua);
+  padding: 30px;
+}
+.shop__title p {
+  color: var(--soft-aqua);
+  font-family: "Montserrat", sans-serif;
+  font-size: 5rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px 0;
+}
+.shop__products h2 {
+  color: var(--white);
+  text-align: center;
+  font-size: 2.6rem;
+  font-weight: normal;
+  padding-bottom: 30px;
+}
+.shop__boxes .box img {
+  width: 100%;
+}
+.shop__boxes .box p {
+  text-align: center;
+  color: var(--white);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  padding: 10px;
+}
+.shop__boxes .box button {
+  display: flex;
+  margin: 0 auto;
+  background-color: var(--strong-pink);
+  color: var(--white);
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  letter-spacing: 1.2px;
+  margin-bottom: 30px;
+}
+
+/* MORE PRODUCTS SECTION */
+.more__section {
+  background-color: var(--soft-pink);
+  padding: 30px;
+}
+.more__card {
+  background-color: #e8e8e8;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 0px 10px rgba(46, 49, 49, 0.5);
+}
+.more__img img {
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+.more__text {
+  padding: 20px;
+}
+.more__text h3 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: var(--aqua);
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 5px;
+}
+.more__text p {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 5px;
+}
+.more__text button {
+  display: flex;
+  color: white;
+  background-color: var(--strong-pink);
+  margin: 0 auto;
+  margin-top: 10px;
+  border: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+.more__title img {
+  display: none;
+}
+.more__title p {
+  text-align: center;
+  font-size: 3.6rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: var(--aqua);
+  padding-bottom: 30px;
+  font-weight: 400;
+}
+/* .more__section {
+  display: flex;
+  width: 100%;
+  height: 1720px;
+  background-color: var(--soft-pink);
+  padding: 70px;
+}
+.more__card {
+  display: flex;
+  width: 863px;
+  height: 200px;
+  border-radius: 4px;
+  background-color: rgba(154, 175, 175, 0.5);
+  margin-bottom: 30px;
+}
+.more__card .more__img img {
+  width: 200px;
+  height: 200px;
+}
+.more__text {
+  position: relative;
+  padding: 30px;
+}
+.more__text h3 {
+  color: var(--aqua);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+}
+.more__text hr {
+  margin: 0;
+  border: 1px solid var(--black);
+  margin-bottom: 10px;
+}
+.more__text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--black);
+}
+.more__text button {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: 180px;
+  height: 45px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2.4rem;
+  letter-spacing: 1.5px;
+  background-color: var(--strong-pink);
+  color: white;
+}
+.more__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.more__title img {
+  width: 354px;
+  height: 340px;
+  margin-top: 220px;
+}
+.more__title p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 8.5rem;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  color: var(--aqua);
+} */
+
+/* NESLETTER STYLES */
+.newsletter__section {
+  width: 100%;
+  height: auto;
+  background-color: var(--aqua);
+  padding: 70px;
+}
+.newsletter__container {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  padding: 45px;
+  text-align: center;
+}
+.newsletter__container .first__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.newsletter__container .second__text {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+.newsletter__container .button__input {
+  display: flex;
+  justify-content: center;
+}
+.newsletter__container .button__input input {
+  width: 450px;
+  height: 40px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid rgba(36, 36, 36, 0.25);
+  padding: 10px 20px;
+}
+.button__input button {
+  width: auto;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--strong-pink);
+  border: 1px solid rgba(36, 36, 36, 0.25);
+  border-radius: 0 4px 4px 0;
+  letter-spacing: 1.5px;
+  padding: 0 20px;
+}
+/* FOOTER STYLES */
+footer {
+  background-color: var(--medium-pink);
+  padding: 50px 70px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+.footer__title {
+  font-size: 4rem;
+  line-height: 5rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+footer hr {
+  margin: 0;
+  margin-bottom: 20px;
+}
+.footer__nav {
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  padding: 0 120px;
+}
+.footer__nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.footer__nav input {
+  width: 320px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--strong-pink);
+  border-radius: 4px;
+  padding: 10px;
+}
+.footer__rrss ul {
+  display: flex;
+  justify-content: center;
+}
+.footer__rrss ul li {
+  padding: 0 5px;
+  padding-bottom: 30px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
