@@ -79,9 +79,9 @@
 }
 .shop__title p {
   position: absolute;
-  left: -180px;
+  left: -100px;
   top: 200px;
-  font-size: 14rem;
+  font-size: 10rem;
   padding: 20px 0;
   transform: rotate(-90deg);
 }
@@ -90,6 +90,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.shop__boxes {
+  width: 80%;
 }
 .shop__boxes .box img {
   text-align: center;
