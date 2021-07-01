@@ -140,6 +140,7 @@ html {
   justify-content: center;
   align-items: center;
   font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* SHOP STYLES */
@@ -183,6 +184,7 @@ html {
   border: none;
   letter-spacing: 1.2px;
   margin-bottom: 30px;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* MORE PRODUCTS SECTION */
@@ -229,6 +231,7 @@ html {
   padding: 10px 20px;
   text-transform: uppercase;
   letter-spacing: 1.2px;
+  font-family: "Montserrat", sans-serif;
 }
 .more__title img {
   display: none;

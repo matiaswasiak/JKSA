@@ -64,6 +64,7 @@
   padding-bottom: 40px;
 }
 .main__text button {
+  font-family: "Montserrat", sans-serif;
   height: 60px;
   font-size: 2rem;
 }
@@ -102,6 +103,7 @@
   padding: 20px;
 }
 .shop__boxes .box button {
+  font-family: "Montserrat", sans-serif;
   padding: 15px 25px;
   font-size: 2rem;
   margin-bottom: 50px;
@@ -125,89 +127,44 @@
 }
 .more__text button {
   font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* NESLETTER STYLES */
 .newsletter__section {
-  background-color: var(--aqua);
-  padding: 30px;
-  height: auto;
-}
-.newsletter__container {
-  background-color: rgba(255, 255, 255, 0.8);
-  border-radius: 4px;
-  padding: 30px;
+  padding: 70px;
 }
 .first__text {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.8rem;
-  text-align: center;
-  font-weight: bold;
-  padding-bottom: 10px;
+  font-size: 2rem;
 }
 .second__text {
-  font-weight: normal;
-  font-size: 1.4rem;
-  text-align: center;
-  padding-bottom: 20px;
+  font-size: 1.6rem;
 }
 .button__input input {
-  width: 100%;
-  height: 40px;
-  border-radius: 4px;
-  padding: 10px 20px;
-  text-align: center;
-  border: 1px solid rgba(36, 36, 36, 0.25);
+  height: 50px;
   margin-bottom: 10px;
+  font-size: 1.6rem;
 }
 .button__input button {
-  display: flex;
-  width: 120px;
-  height: 40px;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  border: none;
-  background-color: var(--strong-pink);
-  color: white;
-  letter-spacing: 1.2px;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
+  width: 150px;
+  height: 50px;
+  font-size: 2rem;
 }
 
 /* FOOTER STYLES */
-footer {
-  background-color: var(--medium-pink);
-  height: auto;
-  padding: 30px;
-}
-footer hr {
-  margin-bottom: 20px;
-}
 .footer__title {
-  text-align: center;
-  font-size: 3rem;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
+  font-size: 4rem;
   padding-bottom: 20px;
 }
-.footer__nav {
-  text-align: center;
-}
 .footer__nav ul li {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
 }
 .footer__nav ul li a {
-  font-size: 1.5rem;
-  font-weight: normal;
-  color: var(--black);
+  font-size: 1.8rem;
 }
 .footer__rrss ul {
-  display: flex;
-  width: 70%;
-  margin: 20px auto;
-  justify-content: space-between;
+  width: 30%;
 }
 footer p {
-  text-align: center;
+  font-size: 1.4rem;
 }
