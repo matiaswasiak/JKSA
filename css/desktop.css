@@ -31,35 +31,31 @@ html {
 }
 
 /* HEADER STYLES */
-header {
-  background-color: var(--medium-pink);
-}
 .header__container {
-  display: flex;
-  align-items: center;
+  height: 150px;
+  width: 100%;
   justify-content: space-between;
   padding: 50px 70px;
 }
-.header__title h1 {
-  font-size: 3rem;
-  font-weight: 400;
-  letter-spacing: 3%;
-  text-transform: uppercase;
-  color: var(--black);
+.header__title p {
+  font-size: 4rem;
+}
+.header__nav {
+  display: flex;
 }
 .header__nav ul {
   display: flex;
-  font-size: 1.8rem;
 }
 .header__nav ul li {
-  padding-left: 30px;
+  margin-left: 30px;
+  font-size: 1.8rem;
 }
-hr {
-  margin: 0 70px;
+.horizontal-line {
+  background-color: var(--medium-pink);
+  padding: 0 70px;
 }
-
 /* MENU STYLES */
-.menu__container {
+/* .menu__container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -82,7 +78,7 @@ hr {
   background-color: rgba(255, 255, 255, 0.5);
   border: 1px solid var(--strong-pink);
   border-radius: 4px;
-}
+} */
 
 /* MAIN STYLES */
 .main__section {
