@@ -60,9 +60,7 @@ html {
 
 /* MENU STYLES */
 .menu__container {
-  height: auto;
   padding: 0 179px;
-  background-color: var(--medium-pink);
 }
 .menu__nav {
   display: flex;
@@ -97,15 +95,12 @@ html {
 
 /* MAIN STYLES */
 .main__section {
-  position: relative;
   min-height: 820px;
-  background-color: var(--soft-pink);
 }
 .aqua--bar {
   position: absolute;
   height: 230px;
   width: 100%;
-  background-color: var(--aqua);
 }
 .main__container {
   display: flex;
@@ -125,17 +120,12 @@ html {
   color: var(--white);
 }
 .main__text .subtitle {
-  padding-bottom: 10px;
-  font-family: "Montserrat", sans-serif;
   font-size: 1.9rem;
-  text-transform: uppercase;
 }
 .main__text h1 {
   padding-bottom: 10px;
   line-height: 5.6rem;
   font-size: 4.2rem;
-  font-weight: 400;
-  color: var(--aqua);
 }
 .main__text .text {
   padding-bottom: 20px;
@@ -147,79 +137,23 @@ html {
   height: 45px;
   width: 250px;
   font-weight: 400;
-  font-size: 2rem;
   letter-spacing: 1.5px;
   line-height: 2.4rem;
-  text-transform: uppercase;
-  background-color: var(--strong-pink);
-  border: none;
-  color: var(--white);
   margin: 0;
 }
 
 /* SHOP STYLES */
-.shop__container {
-  display: flex;
-  position: relative;
-  height: 900px;
-  width: 100%;
-  padding: 70px;
-  background-color: var(--aqua);
-}
-.shop__title {
-  width: 20%;
-}
-.shop__title p {
-  position: relative;
-  top: 250px;
-  left: -70px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14rem;
-  font-weight: normal;
-  text-transform: uppercase;
-  transform: rotate(-90deg);
-  color: #9aafaf;
-}
-.shop__products {
-  width: 80%;
-  padding-top: 70px;
-  text-align: center;
-}
-.shop__products h2 {
-  padding-bottom: 100px;
-  font-size: 3.5rem;
-  font-weight: normal;
-  line-height: 4.7rem;
-  color: var(--white);
-}
 .shop__boxes {
   display: flex;
   justify-content: space-between;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
-  line-height: 2.4rem;
-  text-transform: uppercase;
-  color: var(--white);
+  width: 100%;
 }
-.shop__boxes .box img {
-  height: 320px;
-  width: 300px;
+.shop__title p {
+  left: -100px;
+  font-size: 14rem;
 }
 .shop__boxes .box p {
-  padding: 25px 0;
-}
-.shop__boxes .box button {
-  height: 45px;
-  width: 160px;
-  border: none;
-  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  font-weight: 400;
-  line-height: 2.4rem;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  background-color: var(--strong-pink);
-  color: white;
 }
 
 /* MORE PRODUCTS SECTION */
@@ -296,7 +230,6 @@ html {
   font-weight: normal;
   font-size: 8.5rem;
   text-transform: uppercase;
-  transform: rotate(-90deg);
   color: var(--aqua);
 }
 
