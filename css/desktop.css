@@ -157,7 +157,57 @@ html {
 }
 
 /* MORE PRODUCTS SECTION */
-.more__section {
+.more__lastproducts {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.more__title {
+  width: 28%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.more__title p {
+  transform: rotate(-90deg);
+  font-size: 10rem;
+  text-align: start;
+  margin-bottom: 220px;
+}
+.more__title img {
+  display: initial;
+  width: auto;
+}
+.more__cards {
+  width: 80%;
+}
+.more__card {
+  display: flex;
+  width: 870px;
+}
+.more__img {
+  height: 200px;
+}
+.more__img img {
+  height: 200px;
+  width: 200px;
+  border-radius: 4px 0 0 4px;
+}
+.more__text {
+  padding: 30px;
+}
+.more__text h3 {
+  text-align: start;
+}
+.more__text p {
+  text-align: start;
+}
+.more__text button {
+  margin-right: 0;
+}
+
+/* .more__section {
   display: flex;
   height: 1720px;
   width: 100%;
@@ -231,7 +281,7 @@ html {
   font-size: 8.5rem;
   text-transform: uppercase;
   color: var(--aqua);
-}
+} */
 
 /* NESLETTER STYLES */
 .newsletter__section {
